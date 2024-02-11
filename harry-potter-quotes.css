@@ -1,0 +1,24 @@
+.harry-potter-quotes {
+  height: auto;
+  max-height: auto;
+  line-height: 1em;
+}
+.harry-potter-quotes.xsmall {
+  max-width: 30vh;
+}
+
+.harry-potter-quotes.small {
+  max-width: 40vh;
+}
+
+.harry-potter-quotes.medium {
+  max-width: 50vh;
+}
+
+.harry-potter-quotes.large {
+  max-width: 70vh;
+}
+
+.harry-potter-quotes.xlarge {
+  max-width: 100vh;
+}

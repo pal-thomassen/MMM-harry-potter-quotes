@@ -1,0 +1,19 @@
+{
+  "name": "mmm-harry-potter-quotes",
+  "version": "1.0.0",
+  "description": "A very simple MagicMirror² module to show a daily harry potter quote.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pal-thomassen/mmm-harry-potter-quotes"
+  },
+  "keywords": [
+    "quotes",
+    "quote"
+  ],
+  "author": {
+    "name": "Pål Thomassen",
+    "url": "https://github.com/pal-thomassen"
+  },
+  "license": "MIT"
+}
+
