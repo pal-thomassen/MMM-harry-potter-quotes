@@ -6,6 +6,9 @@ Module.register("MMM-harry-potter-quotes", {
   start: function () {
     this.runAtTime(this.config.runAtHour);
   },
+  getScripts: function () {
+    return ["quotes.js"];
+  },
   getStyles: function () {
     return ["harry-potter-quotes.css"];
   },
@@ -79,9 +82,8 @@ Module.register("MMM-harry-potter-quotes", {
   },
   fetchQuote: async function () {
     try {
-      const response = await fetch("https://api.portkey.uk/quote");
-      const responseData = await response.json();
-      return responseData;
+      let randomIndex = Math.floor(Math.random() * harryPotterQuotes.length);
+      return harryPotterQuotes[randomIndex];
     } catch (error) {
       console.error("Fetch error:", error);
     }
